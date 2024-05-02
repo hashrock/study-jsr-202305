@@ -1,5 +1,9 @@
 {
+  "name": "@hashrock/study-jsr-202305",
   "tasks": {
     "dev": "deno run --watch main.ts"
+  },
+  "exports": {
+    "main": "./main.ts"
   }
 }
