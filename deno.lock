@@ -4,6 +4,7 @@
     "specifiers": {
       "jsr:@std/assert": "jsr:@std/assert@0.218.2",
       "jsr:@std/fmt@^0.218.2": "jsr:@std/fmt@0.218.2",
+      "npm:preact@10.19.6": "npm:preact@10.19.6",
       "npm:superjson@1.13.3": "npm:superjson@1.13.3"
     },
     "jsr": {
@@ -28,6 +29,10 @@
         "integrity": "sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==",
         "dependencies": {}
       },
+      "preact@10.19.6": {
+        "integrity": "sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==",
+        "dependencies": {}
+      },
       "superjson@1.13.3": {
         "integrity": "sha512-mJiVjfd2vokfDxsQPOwJ/PtanO87LhpYY88ubI5dUB1Ab58Txbyje3+jpm+/83R/fevaq/107NNhtYBLuoTrFg==",
         "dependencies": {
@@ -42,5 +47,10 @@
     "https://esm.sh/preact@10.19.6/jsx-runtime": "f4c9e5f72ef18435eab846ae02e315a63da724f64fb08d806d2ddeaf08d99bd8",
     "https://esm.sh/stable/preact@10.19.6/denonext/jsx-runtime.js": "97e9eeb40443de53a8cb3b70f264d04db2bbfc5c2298fdb15d1c471283ccd6aa",
     "https://esm.sh/stable/preact@10.19.6/denonext/preact.mjs": "68491395d287895f4d697e403ded5b0ebb8fed0494f9e870c422bc017e5e52f5"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:preact@10.19.6"
+    ]
   }
 }

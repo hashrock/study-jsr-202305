@@ -1,9 +1,16 @@
+import { JSX } from "preact";
+
+interface IconMoodSmileProps {
+  size?: number;
+  color?: string;
+  stroke?: number;
+}
+
 function IconMoodSmile({
   size = 24,
   color = "currentColor",
-  stroke = 2,
-  ...props
-}) {
+  stroke = 2
+}: IconMoodSmileProps ): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +23,6 @@ function IconMoodSmile({
       fill="none"
       stroke-linecap="round"
       stroke-linejoin="round"
-      {...props}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
