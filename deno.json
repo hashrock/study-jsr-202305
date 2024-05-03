@@ -4,6 +4,7 @@
     "dev": "deno run --watch main.ts"
   },
   "exports": {
-    "main": "./main.ts"
-  }
+    ".": "./main.ts"
+  },
+  "version": "1.0.0"
 }
