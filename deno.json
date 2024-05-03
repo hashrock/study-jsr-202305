@@ -6,5 +6,13 @@
   "exports": {
     ".": "./main.ts"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "imports": {
+    "preact": "https://esm.sh/preact@10.19.6",
+    "preact/": "https://esm.sh/preact@10.19.6/"
+  }
 }
