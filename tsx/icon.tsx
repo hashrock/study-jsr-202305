@@ -9,8 +9,8 @@ interface IconMoodSmileProps {
 function IconMoodSmile({
   size = 24,
   color = "currentColor",
-  stroke = 2
-}: IconMoodSmileProps ): JSX.Element {
+  stroke = 2,
+}: IconMoodSmileProps): JSX.Element {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
