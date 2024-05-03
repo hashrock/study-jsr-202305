@@ -5,7 +5,7 @@
   },
   "exports": {
     ".": "./main.ts",
-    "./icon": "./tsx/icon.ts"
+    "./icon": "./tsx/icon.tsx"
   },
   "version": "1.0.2",
   "compilerOptions": {
