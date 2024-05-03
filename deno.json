@@ -7,7 +7,7 @@
     ".": "./main.ts",
     "./icon": "./tsx/icon.ts"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
